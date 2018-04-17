@@ -20,7 +20,7 @@
 }
 body {
 	font-size:15px;
-	font-family: 'Arial', 'NanumGothic', Sans-Serif;
+	font-family: 'helvetica', 'NanumGothic', Sans-Serif;
 	color:#333;
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -43,7 +43,7 @@ a:hover, a:focus {
 	outline: none;
 }
 h1, h2, h3 {
-	font-family: 'Arial', 'NanumSquare', Sans-Serif;
+	font-family: 'helvetica', 'NanumSquare', Sans-Serif;
 	margin: 0;
 }
 p, dl, ol, ul {

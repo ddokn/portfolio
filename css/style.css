@@ -100,13 +100,13 @@ main {
 }
 #skills .p_bg {
 	height: 100vh;
-	background: url("/img/skills.jpg") no-repeat center center;
+	background: url(/img/skills.jpg) no-repeat center center;
 	background-size: cover;
 	color: #fff;
 	padding: 0 60px;
 }
 .p_title {
-	idth: 100%;
+	width: 100%;
 	position: absolute;
 	top: 50%;
 	left: 0;

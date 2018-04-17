@@ -76,6 +76,9 @@ main {
 	max-width: 128px;
 	width: 100%;
 }
+.nav_button {
+	font-size: 2.6em;
+}
 .nav_button a {
 	text-decoration: none;
 }

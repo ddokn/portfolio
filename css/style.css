@@ -20,7 +20,7 @@
 }
 body {
 	font-size:15px;
-	font-family: 'Raleway', 'NanumGothic', Sans-Serif;
+	font-family: 'Arial', 'NanumGothic', Sans-Serif;
 	color:#333;
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -76,9 +76,22 @@ main {
 	max-width: 128px;
 	width: 100%;
 }
+.preview_nav {
+	margin-top: 65px;
+}
+.preview_nav > li {
+	margin-bottom: 40px;
+}
+.preview_nav > li:last-child {
+	margin-bottom: 0;
+}
 .nav_button {
 	font-size: 2.6em;
 }
 .nav_button a {
 	text-decoration: none;
+	color: #b2b8c0;
+}
+.nav_button a:hover {
+	color: #9ea4aa;
 }

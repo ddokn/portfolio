@@ -19,7 +19,7 @@
 	}
 }
 body {
-	font-size:14px;
+	font-size:15px;
 	font-family: 'Raleway', 'NanumGothic', Sans-Serif;
 	color:#333;
 	font-synthesis: none;
@@ -44,4 +44,14 @@ a:hover, a:focus {
 }
 h1, h2, h3 {
 	font-family: 'NanumSquare', Sans-Serif;
+}
+aside {
+	width: 300px;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	z-index: 1;
+}
+main {
+	margin-left: 300px;
 }

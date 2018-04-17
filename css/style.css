@@ -44,6 +44,7 @@ a:hover, a:focus {
 }
 h1, h2, h3 {
 	font-family: 'NanumSquare', Sans-Serif;
+	margin: 0;
 }
 aside {
 	width: 300px;
@@ -51,7 +52,15 @@ aside {
 	position: fixed;
 	left: 0;
 	z-index: 1;
+	padding: 80px 15px 0;
 }
 main {
 	margin-left: 300px;
+}
+.logo {
+	text-align: center;
+}
+.logo img {
+	max-width: 128px;
+	width: 100%;
 }

@@ -117,10 +117,14 @@ main {
 	height: 100%;
 	background: rgba(0,0,0,0.4);
 }
-#skills .p_bg ~ article {
+#skills .wrapper {
 	display: table;
-	width: 100%;
-	padding: 60px;
+	width: calc(100% - 120px);
+	padding: 80px 60px;
+}
+#skills .p_summary {
+	display: table-cell;
+	vertical-align: middle;
 }
 .p_title {
 	position: absolute;

@@ -83,7 +83,7 @@ main {
 	font-weight: bold;
 }
 .text_gray {
-	color: rgba(54,59,62,0.4);
+	color: #a6abb2;
 }
 .preview_nav {
 	margin-top: 65px;
@@ -126,7 +126,8 @@ main {
 #skills .wrapper {
 	display: table;
 	width: calc(100% - 120px);
-	padding: 80px 60px;
+	padding: 100px 80px;
+	background: #f6f6f8;
 }
 #skills .p_summary {
 	display: table-cell;
@@ -135,7 +136,7 @@ main {
 .p_title {
 	position: absolute;
 	top: 50%;
-	left: 60px;
+	left: 80px;
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
@@ -150,6 +151,9 @@ main {
 }
 .top_line {
 	position: relative;
+	font-size: 15px;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1.2em;
 }
 .top_line:before {
 	content: '';

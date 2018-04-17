@@ -98,20 +98,43 @@ main {
 .nav_button a:hover {
 	color: #9ea4aa;
 }
-#skills .p_bg {
+.p_bg {
 	height: 100vh;
-	background: url(/img/skills.jpg) no-repeat center center;
 	background-size: cover;
 	color: #fff;
-	padding: 0 60px;
+	position: relative;
+}
+#skills .p_bg {
+	background: url(https://ddokn.github.io/portfolio/img/skills.jpg) no-repeat fixed center center;
+}
+#skills .p_bg:before {
+	display: block;
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+}
+#skills .p_bg ~ article {
+	display: table;
+	width: 100%;
+	padding: 60px;
 }
 .p_title {
-	width: 100%;
 	position: absolute;
 	top: 50%;
-	left: 0;
+	left: 60px;
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
+}
+.p_title h1 {
+	font-size: 4em
+}
+.p_title h3 {
+	font-size: 2em;
+	font-weight: normal;
 }

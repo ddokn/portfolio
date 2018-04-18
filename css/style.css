@@ -59,7 +59,7 @@ ul {
 aside {
 	min-width: 200px;
 	height: 100%;
-	width: 20%;
+	width: 15%;
 	position: fixed;
 	top :0;
 	left: -15%;
@@ -128,6 +128,9 @@ table a:hover {
 }
 .text_bold {
 	font-weight: bold !important;
+}
+.text_right {
+	text-align: right;
 }
 .text_gray {
 	color: #777;

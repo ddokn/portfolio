@@ -207,13 +207,17 @@ table a:hover {
 }
 .wrapper {
 	display: table;
-	width: calc(100% - 160px);
+	width: calc(100% - 130px);
 	padding: 100px 80px;
 	background: #f6f6f8;
 }
 .p_summary {
 	display: table-cell;
 	vertical-align: middle;
+	padding: 0 15px;
+}
+.p_summary.text {
+	width: 30%;
 }
 .p_title {
 	position: absolute;
@@ -246,7 +250,7 @@ table a:hover {
 	top: -1em;
 }
 #work1 .wrapper {
-	padding: 50px 80px;
+	padding: 50px 65px;
 	background: #fff;
 }
 .p_table {

@@ -213,7 +213,7 @@ footer {
 #skills .p_bg {
 	background: url('https://ddokn.github.io/portfolio/img/skills.jpg') no-repeat fixed center center;
 	background-size: cover;
-	height: calc(100vh - 253px);
+	height: calc(100vh - 313px);
 }
 #skills h3 {
 	-webkit-transition: all cubic-bezier(.215,.61,.355,1) 1s;
@@ -302,6 +302,7 @@ footer {
 }
 #skills .wrapper {
 	background: #f6f6f8;
+	padding: 80px;
 }
 .p_table {
 	-webkit-box-flex: 1;

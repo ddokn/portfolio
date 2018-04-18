@@ -309,15 +309,10 @@ footer {
 }
 .footer_widget_group {
 	padding: 80px 100px;
-	display: flex;
-	flex-flow: row wrap;
 	max-width: 1320px;
 	margin: 0 auto;
 	color: #fff;
-}
-.footer_widget {
-	flex: 1 auto;
-	padding: 1em 3em 1em 0;
+	text-align: center;
 }
 .footer_widget a {
 	color: #fff;
@@ -330,14 +325,6 @@ footer {
 	margin     : 0 auto;
 	padding    : 0;
 	list-style : none;
-}
-.credit_item {
-	display: flex;
-	flex-flow: row nowrap;
-}
-.credit_right {
-	margin-left: 1em;
-	opacity: .66;
 }
 .iconed_text {
 	display: inline-block;

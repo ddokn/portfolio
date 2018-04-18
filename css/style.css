@@ -185,7 +185,7 @@ footer {
 	font-family: 'helvetica', Sans-Serif;
 }
 .p_bg {
-	padding: 300px 0;
+	height: 100vh;
 	color: #fff;
 	position: relative;
 }
@@ -199,6 +199,9 @@ footer {
 	height: 100%;
 	background: rgba(0,0,0,0.4);
 }
+.p_bg h5 {
+	font-size: 1.2em;
+}
 #skills .p_bg {
 	background: url('https://ddokn.github.io/portfolio/img/skills.jpg') no-repeat fixed center center;
 	background-size: cover;
@@ -211,8 +214,25 @@ footer {
 	background: url('https://ddokn.github.io/portfolio/img/work02.jpg') no-repeat fixed center center;
 	background-size: cover;
 }
-#work1 .p_bg h5 {
-	font-size: 1.2em;
+.preview .p_title {
+	opacity:0;
+	transition: all 0.75s ease-in-out;
+	transform: translate3d(0,0,0);
+}
+.preview.show .p_title,
+.preview.show article {
+	opacity:1;
+	transform: none;
+}
+.preview.show article {
+	opacity:0;
+	transition: all 0.75s ease-in-out;
+	transform: translate3d(-10%,0,0);
+}
+#work2.preview.show article {
+	opacity:0;
+	transition: all 0.75s ease-in-out;
+	transform: translate3d(10%,0,0);
 }
 .wrapper {
 	display: table;

@@ -230,7 +230,8 @@ footer {
 	transform: translate3d(10%,0,0);
 }
 .preview.show .p_title,
-.preview.show article {
+.preview.show article,
+#work2.preview.show article {
 	opacity:1;
 	transform: none;
 }

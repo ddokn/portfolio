@@ -133,7 +133,7 @@ footer {
 	margin-top: 3em;
 
 }
-.btn:hover {
+.btn:hover, .btn:focus {
 	background: #db3251;
 	color: #fff;
 }

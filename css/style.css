@@ -119,7 +119,6 @@ table a:hover {
 }
 footer {
 	background: #363B3E;
-
 }
 .btn {
 	display: inline-block;
@@ -136,6 +135,7 @@ footer {
 }
 .btn:hover {
 	background: #db3251;
+	color: #fff;
 }
 .logo {
 	text-align: center;
@@ -213,6 +213,7 @@ footer {
 #skills .p_bg {
 	background: url('https://ddokn.github.io/portfolio/img/skills.jpg') no-repeat fixed center center;
 	background-size: cover;
+	height: calc(100vh - 253px);
 }
 #skills h3 {
 	-webkit-transition: all cubic-bezier(.215,.61,.355,1) 1s;
@@ -237,6 +238,15 @@ footer {
 #skills.show h1{
 	opacity: 1;
 	transform: translateY(0);
+}
+#skills article {
+	opacity:0;
+	transition: all 0.75s ease-in-out;
+	transform: translate3d(0,0,0)
+}
+#skills.show article {
+	opacity:1;
+	transform: none;
 }
 #work1 .p_bg {
 	background: url('https://ddokn.github.io/portfolio/img/work01.jpg') no-repeat fixed center center;

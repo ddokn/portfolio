@@ -73,6 +73,8 @@ aside {
 }
 main {
 	transition: padding-left 0.3s cubic-bezier(0.95, 0.03, 0.07, 0.99);
+	background: #fff;
+	margin-bottom: 370px;
 }
 footer {
 	transition: margin-left 0.3s cubic-bezier(0.95, 0.03, 0.07, 0.99);

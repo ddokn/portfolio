@@ -337,3 +337,12 @@ footer {
 	vertical-align: middle;
 	margin-left: .5em;
 }
+.preview .animated {
+	opacity:0;
+	transition: all 0.75s ease-in-out;
+	transform: translate3d(0,0,0)
+}
+.preview.show .animated {
+	opacity:1;
+	transform: none;
+}

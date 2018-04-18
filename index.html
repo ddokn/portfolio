@@ -12,7 +12,7 @@
 	<meta name="robots" content="index, follow">
 	<meta name="theme-color" content="#ffffff">
 	<link rel="shortcut icon" href="./img/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="./css/style.css?7154">
+	<link rel="stylesheet" type="text/css" href="./css/style.css?72421154">
 </head>
 <body>
 	<aside id="side-nav" class="side_menu">
@@ -37,7 +37,7 @@
 					<a role="button" href="#work1">03</a>
 				</h2>
 			</li>
-			<a href="javascript:;" class="nav_button"></a>
+			<a href="javascript:;" class="nav_button">Open</a>
 		</ul>
 	</aside>
 	<main id="contents" role="main" class="page">
@@ -142,10 +142,10 @@
 
 			if(sideBar.hasClass("on")){
 				sideBar.animate({"left":"0px"},200,"easeInOutCirc");
-				$(".navBtn").text("Close");
+				$(".nav_button").text("Close");
 			} else {
 				sideBar.animate({"left":"-300px"},200, "easeInOutCirc");
-				$(".navBtn").text("Open");
+				$(".nav_button").text("Open");
 			}
 		});
 

@@ -219,11 +219,6 @@ footer {
 	transition: all 0.75s ease-in-out;
 	transform: translate3d(0,0,0);
 }
-.preview.show .p_title,
-.preview.show article {
-	opacity:1;
-	transform: none;
-}
 .preview.show article {
 	opacity:0;
 	transition: all 0.75s ease-in-out;
@@ -233,6 +228,11 @@ footer {
 	opacity:0;
 	transition: all 0.75s ease-in-out;
 	transform: translate3d(10%,0,0);
+}
+.preview.show .p_title,
+.preview.show article {
+	opacity:1;
+	transform: none;
 }
 .wrapper {
 	display: table;

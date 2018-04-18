@@ -42,7 +42,7 @@
 		</ul>
 	</aside>
 	<main id="contents" role="main" class="page">
-		<section id="skills" class="preview">
+		<section id="skills">
 			<div class="p_bg">
 				<div class="p_title">
 					<h3>Skills</h3>
@@ -64,7 +64,7 @@
 				</div>
 			</article>
 		</section>
-		<section id="work1" class="preview">
+		<section id="work1" class="_preview">
 			<div class="p_bg">
 				<div class="p_title">
 					<h3 class="p_number text_bold">#01</h3>
@@ -130,7 +130,7 @@
 				</div>
 			</article>
 		</section>
-		<section id="work2" class="preview">
+		<section id="work2" class="_preview">
 			<div class="p_bg">
 				<div class="p_title">
 					<h3 class="p_number text_bold">#02</h3>
@@ -196,7 +196,7 @@
 				</div>
 			</article>
 		</section>
-		<section id="work3" class="preview">
+		<section id="work3" class="_preview">
 			<div class="p_bg">
 				<div class="p_title">
 					<h3 class="p_number text_bold">#03</h3>
@@ -267,7 +267,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	<script>
 		var nav = $("#side-nav ul li");
-		var contents = $("#contents > section");
+		var contents = $("#contents > ._preview");
 		var sideBar = $("#side-nav");
 
 		$(".nav_button").click(function(){
@@ -295,6 +295,10 @@
 
 		$(window).scroll(function(){
 			var wScroll = $(this).scrollTop();
+			if(wScroll >= contents.eq(0).offset().top){
+				nav.removeClass("active");
+				nav.eq(0).addClass("active");
+			}
 			if(wScroll >= contents.eq(1).offset().top){
 				nav.removeClass("active");
 				nav.eq(1).addClass("active");
@@ -306,6 +310,14 @@
 			if(wScroll >= contents.eq(3).offset().top){
 				nav.removeClass("active");
 				nav.eq(3).addClass("active");
+			}
+			if(wScroll >= contents.eq(4).offset().top){
+				nav.removeClass("active");
+				nav.eq(4).addClass("active");
+			}
+			if(wScroll >= contents.eq(5).offset().top){
+				nav.removeClass("active");
+				nav.eq(5).addClass("active");
 			}
 		});
 

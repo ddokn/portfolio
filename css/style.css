@@ -215,7 +215,16 @@ footer {
 	background-size: cover;
 }
 #skills h3 {
-
+	-webkit-transition: all cubic-bezier(.215,.61,.355,1) 1s;
+	-moz-transition: all cubic-bezier(.215,.61,.355,1) 1s;
+	transition: all cubic-bezier(.215,.61,.355,1) 1s;
+	opacity: 0;
+	will-change: transform,opacity;
+	transform: translateY(-100px);
+}
+#skills.show h3{
+	opacity: 1;
+	transform: translateY(0);
 }
 #skills h1 {
 	-webkit-transition: all cubic-bezier(.215,.61,.355,1) 1s;

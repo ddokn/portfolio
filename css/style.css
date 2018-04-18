@@ -170,9 +170,9 @@ table a:hover {
 	transition: all 0.3s ease;
 }
 .p_bg {
-	height: 100vh;
-	color: #fff;
 	padding: 250px 0;
+	color: #fff;
+	position: relative;
 }
 .p_bg:before {
 	display: block;

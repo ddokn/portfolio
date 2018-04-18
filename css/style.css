@@ -70,6 +70,9 @@ aside {
 	-moz-box-shadow: 6px 0 15px -3px rgba(0,0,0,0.04);
 	box-shadow: 6px 0 15px -3px rgba(0,0,0,0.04);
 }
+main {
+	transition: all 0.3s ease;
+}
 .side_menu.on ~ main {
 	padding-left: 300px;
 }
@@ -136,6 +139,9 @@ table a:hover {
 }
 .preview_nav > li:last-child {
 	margin-bottom: 0;
+}
+.preview_nav > li.active a {
+	color: #333;
 }
 .nav_title {
 	font-size: 3.2em;

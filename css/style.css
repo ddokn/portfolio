@@ -44,6 +44,8 @@ a:hover, a:focus {
 }
 h1, h2, h3 {
 	font-family: 'helvetica', 'NanumSquare', Sans-Serif;
+}
+h1, h2, h3, h4, h5 {
 	margin: 0;
 }
 p, dl, ol, ul {
@@ -127,13 +129,13 @@ main {
 	height: 100%;
 	background: rgba(0,0,0,0.4);
 }
-#skills .wrapper {
+.wrapper {
 	display: table;
 	width: calc(100% - 120px);
 	padding: 100px 80px;
 	background: #f6f6f8;
 }
-#skills .p_summary {
+.p_summary {
 	display: table-cell;
 	vertical-align: middle;
 }

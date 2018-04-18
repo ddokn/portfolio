@@ -305,66 +305,68 @@
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-	<script>
-		var nav = $("#side-nav ul li");
-		var contents = $("#contents > ._preview");
-		var sideBar = $("#side-nav");
+	<script src="./js/common.js"></script>
 
-		$(".nav_button").click(function(){
-			sideBar.toggleClass("on");
+	<!--<script>-->
+		<!--var nav = $("#side-nav ul li");-->
+		<!--var contents = $("#contents > ._preview");-->
+		<!--var sideBar = $("#side-nav");-->
 
-			if(sideBar.hasClass("on")){
-				sideBar.animate({"left":"0px"},200,"easeInOutCirc");
-				$(".nav_button").text("Close");
-			} else {
-				sideBar.animate({"left":"-15%"},200, "easeInOutCirc");
-				$(".nav_button").text("Open");
-			}
-		});
+		<!--$(".nav_button").click(function(){-->
+			<!--sideBar.toggleClass("on");-->
 
-		nav.click(function(e){
-			e.preventDefault();
-			var target = $(this);
-			var index = target.index();
-			//alert(index);
-			var section = contents.eq(index);
-			var offset = section.offset().top;
-			//alert(offset);
-			$("html,body").animate({scrollTop:offset},600,"easeInOutExpo");
-		});
+			<!--if(sideBar.hasClass("on")){-->
+				<!--sideBar.animate({"left":"0px"},200,"easeInOutCirc");-->
+				<!--$(".nav_button").text("Close");-->
+			<!--} else {-->
+				<!--sideBar.animate({"left":"-15%"},200, "easeInOutCirc");-->
+				<!--$(".nav_button").text("Open");-->
+			<!--}-->
+		<!--});-->
 
-		$(window).scroll(function(){
-			var wScroll = $(this).scrollTop();
-			if(wScroll >= contents.eq(0).offset().top){
-				nav.removeClass("active");
-				nav.eq(0).addClass("active");
-			}else{
-				nav.removeClass("active");
-			}
-			if(wScroll >= contents.eq(1).offset().top){
-				nav.removeClass("active");
-				nav.eq(1).addClass("active");
-			}
-			if(wScroll >= contents.eq(2).offset().top){
-				nav.removeClass("active");
-				nav.eq(2).addClass("active");
-			}
-			if(wScroll >= contents.eq(0).offset().top - $(window).height()/3){
-				contents.eq(0).addClass("show");
-			}
-			if(wScroll >= contents.eq(1).offset().top - $(window).height()/3){
-				contents.eq(1).addClass("show");
-			}
-			if(wScroll >= contents.eq(2).offset().top - $(window).height()/3){
-				contents.eq(2).addClass("show");
-			}
-		});
+		<!--nav.click(function(e){-->
+			<!--e.preventDefault();-->
+			<!--var target = $(this);-->
+			<!--var index = target.index();-->
+			<!--//alert(index);-->
+			<!--var section = contents.eq(index);-->
+			<!--var offset = section.offset().top;-->
+			<!--//alert(offset);-->
+			<!--$("html,body").animate({scrollTop:offset},600,"easeInOutExpo");-->
+		<!--});-->
 
-		$(window).load(function() {
-			$(".se-pre-con").fadeOut();
-			$('#skills').addClass('show');
-		});
-	</script>
+		<!--$(window).scroll(function(){-->
+			<!--var wScroll = $(this).scrollTop();-->
+			<!--if(wScroll >= contents.eq(0).offset().top){-->
+				<!--nav.removeClass("active");-->
+				<!--nav.eq(0).addClass("active");-->
+			<!--}else{-->
+				<!--nav.removeClass("active");-->
+			<!--}-->
+			<!--if(wScroll >= contents.eq(1).offset().top){-->
+				<!--nav.removeClass("active");-->
+				<!--nav.eq(1).addClass("active");-->
+			<!--}-->
+			<!--if(wScroll >= contents.eq(2).offset().top){-->
+				<!--nav.removeClass("active");-->
+				<!--nav.eq(2).addClass("active");-->
+			<!--}-->
+			<!--if(wScroll >= contents.eq(0).offset().top - $(window).height()/3){-->
+				<!--contents.eq(0).addClass("show");-->
+			<!--}-->
+			<!--if(wScroll >= contents.eq(1).offset().top - $(window).height()/3){-->
+				<!--contents.eq(1).addClass("show");-->
+			<!--}-->
+			<!--if(wScroll >= contents.eq(2).offset().top - $(window).height()/3){-->
+				<!--contents.eq(2).addClass("show");-->
+			<!--}-->
+		<!--});-->
+
+		<!--$(window).load(function() {-->
+			<!--$(".se-pre-con").fadeOut();-->
+			<!--$('#skills').addClass('show');-->
+		<!--});-->
+	<!--</script>-->
 
 </body>
 </html>

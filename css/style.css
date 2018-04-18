@@ -71,7 +71,7 @@ aside {
 	box-shadow: 6px 0 15px -3px rgba(0,0,0,0.04);
 }
 main {
-	margin-left: 300px;
+	padding-left: 300px;
 }
 table {
 	border: 0;
@@ -137,15 +137,31 @@ table a:hover {
 .preview_nav > li:last-child {
 	margin-bottom: 0;
 }
-.nav_button {
+.nav_title {
 	font-size: 3.2em;
 }
-.nav_button a {
+.nav_title a {
 	text-decoration: none;
 	color: #b2b8c0;
 }
-.nav_button a:hover {
+.nav_title a:hover {
 	color: #9ea4aa;
+}
+.nav_button {
+	position: absolute;
+	right: -60px;
+	top: 10px;
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgba(255,255,255,0.4);
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	transition: all 0.3s ease;
 }
 .p_bg {
 	height: 100vh;

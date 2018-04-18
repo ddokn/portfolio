@@ -16,30 +16,33 @@
 </head>
 <body>
 	<aside class="side_menu">
-		<h1 class="logo">
-			<!--<img src="img/logo.png">-->
-			<div style="padding: 30px; background: powderblue">logo</div>
-		</h1>
-		<!--<p class="text_bold">DDOKN</p>-->
-		<ul class="preview_nav">
-			<li>
-				<h2 class="nav_button">
-					<a role="button" href="#">01</a>
-				</h2>
-			</li>
-			<li>
-				<h2 class="nav_button">
-					<a role="button" href="#">02</a>
-				</h2>
-			</li>
-			<li>
-				<h2 class="nav_button">
-					<a role="button" href="#">03</a>
-				</h2>
-			</li>
-		</ul>
+		<nav id="side-nav">
+			<h1 class="logo">
+				<!--<img src="img/logo.png">-->
+				<div style="padding: 30px; background: powderblue">logo</div>
+			</h1>
+			<!--<p class="text_bold">DDOKN</p>-->
+			<ul class="preview_nav">
+				<li class="active">
+					<h2 class="nav_title">
+						<a role="button" href="#skills">01</a>
+					</h2>
+				</li>
+				<li>
+					<h2 class="nav_title">
+						<a role="button" href="#work1">02</a>
+					</h2>
+				</li>
+				<li>
+					<h2 class="nav_title">
+						<a role="button" href="#work1">03</a>
+					</h2>
+				</li>
+				<a href="javascript:;" class="nav_button"></a>
+			</ul>
+		</nav>
 	</aside>
-	<main role="main" class="page">
+	<main id="contents" role="main" class="page">
 		<section id="skills" class="preview">
 			<div class="p_bg">
 				<div class="p_title">
@@ -129,5 +132,65 @@
 			</article>
 		</section>
 	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script>
+		var nav = $("#side-nav ul li");
+		var contents = $("#contents > section");
+		var sideBar = $("#side-nav");
+
+		$(".nav_button").click(function(){
+			sideBar.toggleClass("wow");
+
+			if(sideBar.hasClass("wow")){
+				sideBar.animate({"left":"0px"},200,"easeInOutCirc");
+				$(".navBtn").text("Close");
+			} else {
+				sideBar.animate({"left":"-300px"},200, "easeInOutCirc");
+				$(".navBtn").text("Open");
+			}
+		});
+
+		nav.click(function(e){
+			e.preventDefault();
+			var target = $(this);
+			var index = target.index();
+			//alert(index);
+			var section = contents.eq(index);
+			var offset = section.offset().top;
+			//alert(offset);
+			$("html,body").animate({scrollTop:offset},600,"easeInOutExpo");
+		});
+
+		$(window).scroll(function(){
+			var wScroll = $(this).scrollTop();
+
+			if(wScroll >= contents.eq(0).offset().top){
+				nav.removeClass("active");
+				nav.eq(0).addClass("active");
+			}
+			if(wScroll >= contents.eq(1).offset().top){
+				nav.removeClass("active");
+				nav.eq(1).addClass("active");
+			}
+			if(wScroll >= contents.eq(2).offset().top){
+				nav.removeClass("active");
+				nav.eq(2).addClass("active");
+			}
+			if(wScroll >= contents.eq(3).offset().top){
+				nav.removeClass("active");
+				nav.eq(3).addClass("active");
+			}
+			if(wScroll >= contents.eq(4).offset().top){
+				nav.removeClass("active");
+				nav.eq(4).addClass("active");
+			}
+			if(wScroll >= contents.eq(5).offset().top){
+				nav.removeClass("active");
+				nav.eq(5).addClass("active");
+			}
+		});
+	</script>
+
 </body>
 </html>

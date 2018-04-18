@@ -71,7 +71,7 @@ aside {
 	box-shadow: 6px 0 15px -3px rgba(0,0,0,0.04);
 }
 main {
-	transition: all 0.3s ease;
+	transition: padding-left 0.7s cubic-bezier(0.95, 0.03, 0.07, 0.99);
 }
 .side_menu.on ~ main {
 	padding-left: 300px;
@@ -172,7 +172,7 @@ table a:hover {
 .p_bg {
 	height: 100vh;
 	color: #fff;
-	position: relative;
+	padding: 250px 0;
 }
 .p_bg:before {
 	display: block;

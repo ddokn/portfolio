@@ -15,6 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/style.css?442222222">
 </head>
 <body>
+	<div class="se-pre-con"></div>
 	<aside id="side-nav" class="side_menu">
 		<h1 class="logo">
 			<!--<img src="img/logo.png">-->
@@ -187,6 +188,10 @@
 				nav.removeClass("active");
 				nav.eq(5).addClass("active");
 			}
+		});
+
+		$(window).load(function() {
+			$(".se-pre-con").fadeOut();
 		});
 	</script>
 

@@ -36,6 +36,7 @@ body {
 a {
 	color:#333;
 	transition:.2s;
+	text-decoration: none;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -93,6 +94,10 @@ table thead th {
 	padding: 1.2em 1em;
 }
 table a {
+	color: #00b8ff;
+}
+table a:hover {
+	text-decoration: underline;
 	color: #00b8ff;
 }
 .logo {
@@ -192,6 +197,7 @@ table a {
 }
 #work1 .wrapper {
 	padding: 50px 80px;
+	background: #fff;
 }
 .p_table {
 	-webkit-box-flex: 1;

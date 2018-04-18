@@ -71,11 +71,14 @@ aside {
 	-moz-box-shadow: 6px 0 15px -3px rgba(0,0,0,0.04);
 	box-shadow: 6px 0 15px -3px rgba(0,0,0,0.04);
 }
-main {
+main, footer {
 	transition: padding-left 0.3s cubic-bezier(0.95, 0.03, 0.07, 0.99);
 }
 .side_menu.on ~ main {
 	padding-left: 15%;
+}
+.side_menu.on ~ footer {
+	margin-left: 15%;
 }
 table {
 	border: 0;
@@ -303,10 +306,15 @@ table a:hover {
 	flex-flow: row wrap;
 	max-width: 1320px;
 	margin: 0 auto;
+	background: #363B3E;
+	color: #fff;
 }
 .footer_widget {
 	flex: 1 auto;
 	padding: 1em 3em 1em 0;
+}
+.footer_widget a {
+	color: #fff;
 }
 .footer_content {
 	margin-top: 2rem;

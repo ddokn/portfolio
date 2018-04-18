@@ -173,7 +173,6 @@ table a:hover {
 	text-decoration: none;
 	transition: all 0.3s ease;
 	font-family: 'helvetica', Sans-Serif;
-
 }
 .p_bg {
 	padding: 300px 0;
@@ -297,4 +296,37 @@ table a:hover {
 	height: 100%;
 	z-index: 9999;
 	background: url('https://ddokn.github.io/portfolio/img/loading.gif') center no-repeat #fff;
+}
+.footer_widget_group {
+	padding: 80px 100px;
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 1320px;
+	margin: 0 auto;
+}
+.footer_widget {
+	flex: 1 auto;
+	padding: 1em 3em 1em 0;
+}
+.footer_content {
+	margin-top: 2rem;
+	font-family: 'helvetica', Sans-Serif;
+}
+.credit_list {
+	margin     : 0 auto;
+	padding    : 0;
+	list-style : none;
+}
+.credit_item {
+	display: flex;
+	flex-flow: row nowrap;
+}
+.credit_right {
+	margin-left: 1em;
+	opacity: .66;
+}
+.iconed_text {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: .5em;
 }

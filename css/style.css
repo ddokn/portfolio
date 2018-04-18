@@ -71,7 +71,7 @@ aside {
 	box-shadow: 6px 0 15px -3px rgba(0,0,0,0.04);
 }
 main {
-	transition: padding-left 0.7s cubic-bezier(0.95, 0.03, 0.07, 0.99);
+	transition: padding-left 0.3s cubic-bezier(0.95, 0.03, 0.07, 0.99);
 }
 .side_menu.on ~ main {
 	padding-left: 300px;

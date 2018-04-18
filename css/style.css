@@ -214,31 +214,6 @@ footer {
 	background: url('https://ddokn.github.io/portfolio/img/work02.jpg') no-repeat fixed center center;
 	background-size: cover;
 }
-.preview .p_title {
-	opacity:0;
-	transition: all 0.75s ease-in-out;
-	transform: translate3d(0,0,0);
-}
-.preview.show article > div {
-	opacity:0;
-	transition: all 3s ease-in-out;
-	transform: translate3d(-10%,0,0);
-}
-.preview.show .p_bg {
-	height: auto;
-	padding: 300px 0;
-}
-#work2.preview.show article > div {
-	opacity:0;
-	transition: all 0.75s ease-in-out;
-	transform: translate3d(10%,0,0);
-}
-.preview.show .p_title,
-.preview.show article > div,
-#work2.preview.show article > div {
-	opacity:1;
-	transform: none;
-}
 .wrapper {
 	display: table;
 	width: calc(100% - 160px);

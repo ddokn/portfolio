@@ -130,7 +130,7 @@ table a:hover {
 	font-weight: bold !important;
 }
 .text_gray {
-	color: #94989e;
+	color: #777;
 }
 .preview_nav {
 	margin-top: 65px;
@@ -193,6 +193,10 @@ table a:hover {
 }
 #work1 .p_bg {
 	background: url('https://ddokn.github.io/portfolio/img/work01.jpg') no-repeat fixed center center;
+	background-size: cover;
+}
+#work2 .p_bg {
+	background: url('https://ddokn.github.io/portfolio/img/work02.jpg') no-repeat fixed center center;
 	background-size: cover;
 }
 #work1 .p_bg h5 {

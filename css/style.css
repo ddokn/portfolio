@@ -101,6 +101,22 @@ table a:hover {
 	text-decoration: underline;
 	color: #00b8ff;
 }
+.btn {
+	display: inline-block;
+	min-width: 3em;
+	padding: 1em 3.65em;
+	line-height: 1;
+	font-size: .92rem;
+	text-align: center;
+	color: #fff;
+	background: #f3375a;
+	font-family: 'helvetica', Sans-Serif;
+	margin-top: 3em;
+
+}
+.btn:hover {
+	background: #db3251;
+}
 .logo {
 	text-align: center;
 }

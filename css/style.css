@@ -326,6 +326,12 @@ footer {
 	padding    : 0;
 	list-style : none;
 }
+.footer_content i {
+	vertical-align: middle;
+}
+.footer_content ul li {
+	margin: .7em 0;
+}
 .iconed_text {
 	display: inline-block;
 	vertical-align: middle;

@@ -131,7 +131,7 @@ main {
 }
 .wrapper {
 	display: table;
-	width: calc(100% - 120px);
+	width: calc(100% - 160px);
 	padding: 100px 80px;
 	background: #f6f6f8;
 }
@@ -168,4 +168,7 @@ main {
 	height: 1px;
 	background: #f33759;
 	top: -1em;
+}
+#work1 .wrapper {
+	padding: 50px 80px;
 }

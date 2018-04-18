@@ -152,6 +152,16 @@ table a:hover {
 	color: #fff;
 	position: relative;
 }
+.p_bg:before {
+	display: block;
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+}
 #skills .p_bg {
 	background: url(https://ddokn.github.io/portfolio/img/skills.jpg) no-repeat fixed center center;
 	background-size: cover;
@@ -162,17 +172,6 @@ table a:hover {
 }
 #work1 .p_bg h5 {
 	font-size: 1.2em;
-	margin-top: 1.67em;
-}
-#skills .p_bg:before {
-	display: block;
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.4);
 }
 .wrapper {
 	display: table;

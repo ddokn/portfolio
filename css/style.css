@@ -346,3 +346,7 @@ footer {
 	opacity:1;
 	transform: none;
 }
+.preview.show .p_bg {
+	height: auto;
+	padding: 300px 0;
+}

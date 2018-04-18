@@ -88,6 +88,8 @@ footer {
 }
 .side_menu.on ~ footer {
 	margin-left: 15%;
+	width: calc(100% - 290px);
+	transition: unset;
 }
 table {
 	border: 0;

@@ -133,7 +133,7 @@
 		<section id="work2" class="preview">
 			<div class="p_bg">
 				<div class="p_title">
-					<h3 class="p_number text_bold">#01</h3>
+					<h3 class="p_number text_bold">#02</h3>
 					<h1 class="text_bold">CJ그룹</h1>
 					<h5>viewport 반응형<br/>IE support IE9+</h5>
 				</div>
@@ -199,7 +199,7 @@
 		<section id="work3" class="preview">
 			<div class="p_bg">
 				<div class="p_title">
-					<h3 class="p_number text_bold">#01</h3>
+					<h3 class="p_number text_bold">#03</h3>
 					<h1 class="text_bold">CJ그룹</h1>
 					<h5>viewport 반응형<br/>IE support IE9+</h5>
 				</div>
@@ -295,11 +295,6 @@
 
 		$(window).scroll(function(){
 			var wScroll = $(this).scrollTop();
-
-			if(wScroll >= contents.eq(0).offset().top){
-				nav.removeClass("active");
-				nav.eq(0).addClass("active");
-			}
 			if(wScroll >= contents.eq(1).offset().top){
 				nav.removeClass("active");
 				nav.eq(1).addClass("active");
@@ -311,14 +306,6 @@
 			if(wScroll >= contents.eq(3).offset().top){
 				nav.removeClass("active");
 				nav.eq(3).addClass("active");
-			}
-			if(wScroll >= contents.eq(4).offset().top){
-				nav.removeClass("active");
-				nav.eq(4).addClass("active");
-			}
-			if(wScroll >= contents.eq(5).offset().top){
-				nav.removeClass("active");
-				nav.eq(5).addClass("active");
 			}
 		});
 

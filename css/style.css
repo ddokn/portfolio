@@ -176,7 +176,7 @@ table a:hover {
 
 }
 .p_bg {
-	padding: 250px 0;
+	padding: 300px 0;
 	color: #fff;
 	position: relative;
 }
@@ -207,9 +207,9 @@ table a:hover {
 }
 .wrapper {
 	display: table;
-	width: calc(100% - 130px);
-	padding: 100px 80px;
-	background: #f6f6f8;
+	width: calc(100% - 160px);
+	padding: 50px 80px;
+	background: #fff;
 }
 .p_summary {
 	display: table-cell;
@@ -222,7 +222,7 @@ table a:hover {
 .p_title {
 	position: absolute;
 	top: 50%;
-	left: 80px;
+	left: 95px;
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
@@ -249,9 +249,8 @@ table a:hover {
 	background: #f33759;
 	top: -1em;
 }
-#work1 .wrapper {
-	padding: 50px 65px;
-	background: #fff;
+#skills .wrapper {
+	background: #f6f6f8;
 }
 .p_table {
 	-webkit-box-flex: 1;

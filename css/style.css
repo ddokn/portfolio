@@ -212,3 +212,21 @@ table a:hover {
 .p_table .category {
 	width: 25%;
 }
+.cat {
+	display: inline-block;
+	min-width: 2em;
+	padding: .35em .65em;
+	line-height: 1;
+	font-size: .92rem;
+	text-align: center;
+	color: #fff;
+}
+.cat.html {
+	background: #a5d937;
+}
+.cat.css {
+	background: #3db9f3;
+}
+.cat.js {
+	background: #f33759;
+}

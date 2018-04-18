@@ -43,10 +43,8 @@ a:hover, a:focus {
 	color:#333;
 	outline: none;
 }
-h1, h2, h3 {
-	font-family: 'helvetica', 'NanumSquare', Sans-Serif;
-}
 h1, h2, h3, h4, h5 {
+	font-family: 'helvetica', 'NanumSquare', Sans-Serif;
 	margin: 0;
 }
 p, dl, ol, ul {
@@ -125,10 +123,10 @@ table a:hover {
 	width: 100%;
 }
 .text_bold {
-	font-weight: bold;
+	font-weight: bold !important;
 }
 .text_gray {
-	color: #a6abb2;
+	color: #94989e;
 }
 .preview_nav {
 	margin-top: 65px;
@@ -161,6 +159,10 @@ table a:hover {
 #work1 .p_bg {
 	background: url(https://ddokn.github.io/portfolio/img/work01.jpg) no-repeat fixed center center;
 	background-size: cover;
+}
+#work1 .p_bg h5 {
+	font-size: 1.2em;
+	margin-top: 1.67em;
 }
 #skills .p_bg:before {
 	display: block;

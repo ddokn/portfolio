@@ -84,8 +84,9 @@ table {
 }
 table th, table td {
 	border-bottom: 1px solid #e6e9ea;
-	padding: .3em 1em;
+	padding: .7em 1em;
 	text-align: left;
+	font-family: 'helvetica', Sans-Serif;
 }
 table thead th {
 	background-color: rgba(77,128,153,0.05);
@@ -214,7 +215,7 @@ table a:hover {
 }
 .cat {
 	display: inline-block;
-	min-width: 2em;
+	min-width: 3em;
 	padding: .35em .65em;
 	line-height: 1;
 	font-size: .92rem;

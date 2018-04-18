@@ -343,6 +343,15 @@
 				nav.removeClass("active");
 				nav.eq(2).addClass("active");
 			}
+			if(wScroll >= contents.eq(0).offset().top - $(window).height()/3){
+				contents.eq(0).addClass("show");
+			}
+			if(wScroll >= contents.eq(1).offset().top - $(window).height()/3){
+				contents.eq(1).addClass("show");
+			}
+			if(wScroll >= contents.eq(2).offset().top - $(window).height()/3){
+				contents.eq(2).addClass("show");
+			}
 		});
 
 		$(window).load(function() {

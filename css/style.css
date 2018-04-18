@@ -113,6 +113,10 @@ main {
 	background: url(https://ddokn.github.io/portfolio/img/skills.jpg) no-repeat fixed center center;
 	background-size: cover;
 }
+#work1 .p_bg {
+	background: url(https://ddokn.github.io/portfolio/img/work01.jpg) no-repeat fixed center center;
+	background-size: cover;
+}
 #skills .p_bg:before {
 	display: block;
 	content: '';

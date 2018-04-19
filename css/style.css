@@ -20,6 +20,7 @@
 }
 body {
 	font-size:15px;
+	position: relative;
 	font-family: 'Raleway', 'NanumGothic', Sans-Serif;
 	color:#333;
 	font-synthesis: none;
@@ -554,5 +555,9 @@ footer {
 	}
 	.nav_title {
 		font-size: 2em;
+	}
+	.side_menu.on ~ footer {
+		margin-left: 0;
+		width: 100%;
 	}
 }

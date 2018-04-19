@@ -61,7 +61,7 @@ $(function(){
 
 	$(document).ready(function() {
 		$('#fullpage').fullpage({
-			anchors: ['skills', 'work1', 'work2', 'work3']
+			anchors: ['page1', 'page2', 'page3', 'page4']
 		});
 	});
 

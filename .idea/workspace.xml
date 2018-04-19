@@ -18,8 +18,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="318" column="41" lean-forward="false" selection-start-line="318" selection-start-column="41" selection-end-line="318" selection-end-column="41" />
+            <state relative-caret-position="216">
+              <caret line="318" column="44" lean-forward="false" selection-start-line="318" selection-start-column="44" selection-end-line="318" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#h1#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -30,8 +30,8 @@
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="798">
+              <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -40,8 +40,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="430" column="20" lean-forward="true" selection-start-line="430" selection-start-column="20" selection-end-line="430" selection-end-column="20" />
+            <state relative-caret-position="-4537">
+              <caret line="165" column="24" lean-forward="false" selection-start-line="165" selection-start-column="24" selection-end-line="165" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -58,10 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.p_bg</find>
-      <find>#work1 .p_bg h5</find>
-      <find>#work2.preview.show article</find>
-      <find>p_title</find>
       <find>work1.show .p_bg</find>
       <find>#work2.preview article</find>
       <find>main</find>
@@ -87,7 +83,11 @@
       <find>aside</find>
       <find>body</find>
       <find>fullpage</find>
+      <find>.on</find>
+      <find>active</find>
       <find>contents</find>
+      <find>section</find>
+      <find>=&quot;section</find>
     </findStrings>
     <replaceStrings>
       <replace>top_line text_bold</replace>
@@ -95,6 +95,7 @@
       <replace>preview  _preview</replace>
       <replace>_preview</replace>
       <replace>_preview preview</replace>
+      <replace>=&quot;section _section</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -286,12 +287,12 @@
       <updated>1523942603421</updated>
       <workItem from="1523942604879" duration="40619000" />
       <workItem from="1524102438114" duration="18000" />
-      <workItem from="1524102473567" duration="10927000" />
+      <workItem from="1524102473567" duration="12380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51564000" />
+    <option name="totallyTimeSpent" value="53017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="240" width="1920" height="1200" extended-state="0" />
@@ -324,7 +325,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -413,24 +416,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="430" column="20" lean-forward="true" selection-start-line="430" selection-start-column="20" selection-end-line="430" selection-end-column="20" />
+        <state relative-caret-position="-4537">
+          <caret line="165" column="24" lean-forward="false" selection-start-line="165" selection-start-column="24" selection-end-line="165" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="798">
+          <caret line="61" column="7" lean-forward="false" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="318" column="41" lean-forward="false" selection-start-line="318" selection-start-column="41" selection-end-line="318" selection-end-column="41" />
+        <state relative-caret-position="216">
+          <caret line="318" column="44" lean-forward="false" selection-start-line="318" selection-start-column="44" selection-end-line="318" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#div#0;n#h1#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

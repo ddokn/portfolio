@@ -3,7 +3,6 @@ $(function(){
 	var nav = $("#side-nav ul li");
 	var contents = $("#contents ._preview");
 	var sideBar = $("#side-nav");
-
 	$(".nav_button").click(function(){ //side bar
 		sideBar.toggleClass("on");
 
@@ -29,12 +28,13 @@ $(function(){
 
 	$(window).scroll(function(){
 		var wScroll = $(this).scrollTop();
+		var section = $("._section");
+
 		if(wScroll >= contents.eq(0).offset().top){
 			nav.removeClass("active");
 			nav.eq(0).addClass("active");
-		}else{
+		}else
 			nav.removeClass("active");
-		}
 		if(wScroll >= contents.eq(1).offset().top){
 			nav.removeClass("active");
 			nav.eq(1).addClass("active");
@@ -51,6 +51,13 @@ $(function(){
 		}
 		if(wScroll >= contents.eq(2).offset().top - $(window).height()/3){
 			contents.eq(2).addClass("show");
+		}
+	});
+
+	$(window).scroll(function(){
+		var section = $("._section");
+		if(section.hasClass('active')){
+			console.log(123123123);
 		}
 	});
 

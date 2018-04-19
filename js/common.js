@@ -60,8 +60,9 @@ $(function(){
 	});
 	$(document).ready(function() {
 		$('#fullpage').fullpage({
-			navigation: false,
-			navigationPosition: 'right'
+			navigation: true,
+			navigationPosition: 'right',
+			normalScrollElements: 'footer'
 		});
 	});
 

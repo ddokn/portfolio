@@ -524,4 +524,19 @@ footer {
 		font-size: 1em;
 		margin-top: 10px;
 	}
+	.footer_widget_group {
+		padding: 80px 30px;
+	}
+	.side_menu.on ~ main {
+		padding-left: 0;
+	}
+	aside {
+		left: -250px !important;
+		background: rgba(255,255,255,0.2);
+		min-width: 250px;
+		width: auto;
+	}
+	aside.on {
+		left :0 !important;
+	}
 }

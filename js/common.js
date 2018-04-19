@@ -60,7 +60,7 @@ $(function(){
 	});
 
 	$(document).ready(function() {
-		$('#contents').fullpage({
+		$('#fullpage').fullpage({
 			anchors: ['skills', 'work1', 'work2', 'work3']
 		});
 	});

@@ -1,7 +1,7 @@
 $(function(){
 
 	var nav = $("#side-nav ul li");
-	var contents = $("#contents > ._preview");
+	var contents = $("#contents ._preview");
 	var sideBar = $("#side-nav");
 
 	$(".nav_button").click(function(){ //side bar

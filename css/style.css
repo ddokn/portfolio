@@ -410,8 +410,8 @@ footer {
 	transform: none;
 }
 #fp-nav {
-	margin-top: -32px;
-	top: 50%;
+	margin-top: 0 !important;
+	top: 17px;
 	position: fixed;
 	z-index: 100;
 	right: 17px;
@@ -444,7 +444,7 @@ footer {
 	height: 4px;
 	width: 4px;
 	border: 0;
-	background: #f33759;
+	background: #fff;
 	left: 50%;
 	top: 50%;
 	margin: -2px 0 0 -2px;
@@ -646,5 +646,8 @@ footer {
 	}
 	.fullpage-wrapper,.fp-section,.fp-tableCell  {
 		height: 100% !important;
+	}
+	#fp-nav {
+		display: none;
 	}
 }

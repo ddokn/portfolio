@@ -57,7 +57,8 @@ $(function(){
 	$(document).ready(function() {
 		$('#fullpage').fullpage({
 			navigation: true,
-			navigationPosition: 'right'
+			navigationPosition: 'right',
+			responsiveWidth: 767
 		});
 	});
 

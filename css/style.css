@@ -421,7 +421,6 @@ footer {
 	}
 	#skills .wrapper {
 		padding: 80px 45px;
-		width: calc(100% - 100px);
 	}
 	#skills .p_bg {
 		height: 100vh;
@@ -439,5 +438,18 @@ footer {
 	}
 }
 @media (max-width: 767px) {
-
+	.wrapper {
+		width: calc(100% - 60px);
+		padding: 30px;
+	}
+	.p_summary {
+		padding: 0;
+	}
+	.p_table {
+		display: block;
+		width: 100%;
+	}
+	.p_table thead {
+		display: none;
+	}
 }

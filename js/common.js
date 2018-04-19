@@ -58,8 +58,8 @@ $(function(){
 		$(".se-pre-con").fadeOut();
 		$('#skills').addClass('show');
 	});
-	// $(document).ready(function() {
-	// 	$('#fullpage').fullpage();
-	// });
+	$(document).ready(function() {
+		$('#fullpage').fullpage();
+	});
 
 });

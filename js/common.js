@@ -57,9 +57,7 @@ $(function(){
 	$(document).ready(function() {
 		$('#fullpage').fullpage({
 			navigation: true,
-			navigationPosition: 'right',
-			normalScrollElements: '#footer',
-			scrollBar: 'true'
+			navigationPosition: 'right'
 		});
 	});
 

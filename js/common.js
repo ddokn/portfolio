@@ -59,7 +59,7 @@ $(function(){
 			navigation: true,
 			navigationPosition: 'right',
 			normalScrollElements: '#footer',
-			responsiveWidth: 767
+			scrollBar: 'true'
 		});
 	});
 

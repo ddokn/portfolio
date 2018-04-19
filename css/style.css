@@ -448,7 +448,7 @@ footer {
 		height: calc(100vh - 60vh);
 	}
 	#skills .p_bg {
-		height: calc(100vh - 558px);
+		height: calc(100vh);
 	}
 	#skills .p_summary {
 		display: block;
@@ -591,5 +591,7 @@ footer {
 		opacity:1;
 		transform: none;
 	}
-
+	.nav_button {
+		display: block;
+	}
 }

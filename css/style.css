@@ -192,9 +192,10 @@ footer {
 	text-decoration: none;
 	transition: all 0.3s ease;
 	font-family: 'helvetica', Sans-Serif;
+	display: none;
 }
 .p_bg {
-	height: 100vh;
+	height: calc(100vh - 45vh);
 	color: #fff;
 	position: relative;
 }
@@ -212,7 +213,7 @@ footer {
 	font-size: 1.2em;
 }
 #skills .p_bg {
-	background: url('https://ddokn.github.io/portfolio/img/skills.jpg?22148421') no-repeat fixed center center;
+	background: url('https://ddokn.github.io/portfolio/img/skills.jpg?22148421') no-repeat center center;
 	background-size: cover;
 	height: calc(100vh - 313px);
 }
@@ -250,11 +251,11 @@ footer {
 	transform: none;
 }
 #work1 .p_bg {
-	background: url('https://ddokn.github.io/portfolio/img/work01.jpg') no-repeat fixed center center;
+	background: url('https://ddokn.github.io/portfolio/img/work01.jpg') no-repeat center center;
 	background-size: cover;
 }
 #work2 .p_bg {
-	background: url('https://ddokn.github.io/portfolio/img/work02.jpg') no-repeat fixed center center;
+	background: url('https://ddokn.github.io/portfolio/img/work02.jpg') no-repeat center center;
 	background-size: cover;
 }
 .wrapper {
@@ -390,10 +391,6 @@ footer {
 	opacity:1;
 	transform: none;
 }
-.active .preview .p_bg {
-	height: auto;
-	padding: 300px 0;
-}
 .preview article {
 	opacity:0;
 	transition: all 0.75s ease-in-out;
@@ -423,9 +420,6 @@ footer {
 	#skills .wrapper {
 		padding: 80px 45px;
 	}
-	#skills .p_bg {
-		height: 100vh;
-	}
 	.preview .wrapper .p_summary {
 		display: block;
 		width: 100%;
@@ -446,6 +440,12 @@ footer {
 	#skills .wrapper {
 		padding: 50px 30px;
 		display: block;
+	}
+	.p_bg {
+		height: calc(100vh - 60vh);
+	}
+	#skills .p_bg {
+		height: calc(100vh - 558px);
 	}
 	#skills .p_summary {
 		display: block;

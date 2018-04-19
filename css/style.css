@@ -532,7 +532,7 @@ footer {
 	}
 	aside {
 		left: -250px !important;
-		background: rgba(255,255,255,0.2);
+		background: #fff;
 		min-width: 250px;
 		width: auto;
 	}
@@ -551,5 +551,8 @@ footer {
 		z-index: 1;
 		left: 0;
 		top: 0;
+	}
+	.nav_title {
+		font-size: 2em;
 	}
 }

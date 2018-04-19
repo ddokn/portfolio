@@ -416,11 +416,15 @@ footer {
 		left: 60px;
 	}
 	.wrapper {
-		width: calc(100% - 100px);
-		padding: 30px 50px;
+		width: calc(100% - 90px);
+		padding: 30px 45px;
 	}
 	#skills .wrapper {
-		padding: 80px 50px;
+		padding: 80px 45px;
+		width: calc(100% - 100px);
+	}
+	#skills .p_bg {
+		height: 100vh;
 	}
 	.preview .wrapper .p_summary {
 		display: block;
@@ -433,4 +437,7 @@ footer {
 	.p_summary.text.text_right {
 		text-align: left;
 	}
+}
+@media (max-width: 767px) {
+
 }

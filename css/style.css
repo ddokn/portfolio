@@ -594,4 +594,7 @@ footer {
 	.nav_button {
 		display: block;
 	}
+	.fullpage-wrapper,.fp-section,.fp-tableCell  {
+		height: 100% !important;
+	}
 }

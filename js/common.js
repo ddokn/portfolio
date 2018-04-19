@@ -54,13 +54,6 @@ $(function(){
 		}
 	});
 
-	$(window).scroll(function(){
-		var section = $("._section");
-		if(section.hasClass('active')){
-			console.log(123123123);
-		}
-	});
-
 	$(window).load(function() {
 		$(".se-pre-con").fadeOut();
 		$('#skills').addClass('show');

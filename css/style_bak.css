@@ -55,7 +55,7 @@ ul > li {
 	list-style: none;
 }
 ul {
-	 padding-left: 0;
+	padding-left: 0;
 }
 aside {
 	min-width: 15%;
@@ -224,7 +224,7 @@ footer {
 	will-change: transform,opacity;
 	transform: translateY(-100px);
 }
-.active #skills h3{
+#skills.show h3{
 	opacity: 1;
 	transform: translateY(0);
 }
@@ -236,7 +236,7 @@ footer {
 	will-change: transform,opacity;
 	transform: translateY(100px);
 }
-.active #skills h1{
+#skills.show h1{
 	opacity: 1;
 	transform: translateY(0);
 }
@@ -245,7 +245,7 @@ footer {
 	transition: all 0.75s ease-in-out;
 	transform: translate3d(0,0,0)
 }
-.active #skills article {
+#skills.show article {
 	opacity:1;
 	transform: none;
 }
@@ -386,11 +386,11 @@ footer {
 	transition: all 0.75s ease-in-out;
 	transform: translate3d(0,0,0)
 }
-.active .preview .animated {
+.preview.show .animated {
 	opacity:1;
 	transform: none;
 }
-.active .preview .p_bg {
+.preview.show .p_bg {
 	height: auto;
 	padding: 300px 0;
 }
@@ -399,7 +399,7 @@ footer {
 	transition: all 0.75s ease-in-out;
 	transform: translate3d(-10%,0,0);
 }
-.active .preview article {
+.preview.show article {
 	opacity:1;
 	transform: none;
 }
@@ -408,7 +408,7 @@ footer {
 	transition: all 0.75s ease-in-out;
 	transform: translate3d(10%,0,0);
 }
-.active #work2.preview article {
+#work2.preview.show article {
 	opacity:1;
 	transform: none;
 }

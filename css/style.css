@@ -442,6 +442,23 @@ footer {
 		width: calc(100% - 60px);
 		padding: 30px;
 	}
+	#skills .wrapper {
+		padding: 50px 30px;
+		display: block;
+	}
+	#skills .p_summary {
+		display: block;
+		text-align: center;
+		margin-top: 40px;
+	}
+	#skills .p_summary:first-child {
+		margin-top:0;
+	}
+	.top_line:before {
+		top: -0.5em;
+		left: 50%;
+		margin-left: -10px;
+	}
 	.p_summary {
 		padding: 0;
 	}
@@ -451,5 +468,32 @@ footer {
 	}
 	.p_table thead {
 		display: none;
+	}
+	.p_table tbody {
+		display: block;
+		width: 100%;
+	}
+	.p_table tr {
+		border-top: 1px solid #e6e9ea;
+		display: block;
+		margin: 1rem 0;
+	}
+	.p_table tr td {
+		display: block;
+		padding-left: 11em;
+		position: relative;
+	}
+	.p_table tr td:before {
+		background: rgba(77,128,153,0.05);
+		color: #94979c;
+		display: block;
+		width: 10em;
+		padding: .3em;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		font-weight: 500;
+		content: attr(data-th) ":";
 	}
 }

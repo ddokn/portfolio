@@ -205,7 +205,7 @@ footer {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.61);
 }
 .p_bg h5 {
 	font-size: 1.2em;
@@ -410,4 +410,27 @@ footer {
 #work2.preview.show article {
 	opacity:1;
 	transform: none;
+}
+@media screen and (max-width: 991px) {
+	.p_title {
+		left: 60px;
+	}
+	.wrapper {
+		width: calc(100% - 100px);
+		padding: 30px 50px;
+	}
+	#skills .wrapper {
+		padding: 80px 50px;
+	}
+	.preview .wrapper .p_summary {
+		display: block;
+		width: 100%;
+	}
+	.btn {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+	.p_summary.text.text_right {
+		text-align: left;
+	}
 }

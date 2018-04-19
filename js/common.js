@@ -4,7 +4,7 @@ $(function(){
 	var contents = $("#contents > ._preview");
 	var sideBar = $("#side-nav");
 
-	$(".nav_button").click(function(){
+	$(".nav_button").click(function(){ //side bar
 		sideBar.toggleClass("on");
 
 		if(sideBar.hasClass("on")){
@@ -58,4 +58,11 @@ $(function(){
 		$(".se-pre-con").fadeOut();
 		$('#skills').addClass('show');
 	});
+
+	$(document).ready(function() {
+		$('#fullpage').fullpage({
+			anchors: ['skills', 'work1', 'work2', 'work3']
+		});
+	});
+
 });

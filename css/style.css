@@ -508,9 +508,20 @@ footer {
 		transform: translateX(-50%);
 	}
 	.p_title h3 {
-		font-size: 15px;
+		font-size: 1.7em;
 	}
 	.p_title h1 {
-		font-size: 22px;
+		font-size: 2em;
+	}
+	.preview .p_title h1, .preview .p_title h3 {
+		display: inline-block;
+		font-size: 2em;
+	}
+	.preview .p_title h1 {
+		margin-left: 5px;
+	}
+	.p_bg h5 {
+		font-size: 1em;
+		margin-top: 10px;
 	}
 }

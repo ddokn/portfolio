@@ -195,7 +195,7 @@ footer {
 	display: none;
 }
 .p_bg {
-	height: calc(100vh - 45vh);
+	height: calc(100vh - 35vh);
 	color: #fff;
 	position: relative;
 }
@@ -410,6 +410,9 @@ footer {
 	transform: none;
 }
 @media screen and (max-width: 991px) {
+	.p_bg {
+		height: calc(100vh - 45vh);
+	}
 	.p_title {
 		left: 60px;
 	}

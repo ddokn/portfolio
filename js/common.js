@@ -59,7 +59,10 @@ $(function(){
 		$('#skills').addClass('show');
 	});
 	$(document).ready(function() {
-		$('#fullpage').fullpage();
+		$('#fullpage').fullpage({
+			navigation: false,
+			navigationPosition: 'right'
+		});
 	});
 
 });

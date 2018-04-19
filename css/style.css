@@ -478,6 +478,9 @@ footer {
 		display: block;
 		margin: 1rem 0;
 	}
+	.p_table td {
+		padding: .3em 1em;
+	}
 	.p_table tr td {
 		display: block;
 		padding-left: 11em;
@@ -495,5 +498,19 @@ footer {
 		left: 0;
 		font-weight: 500;
 		content: attr(data-th) ":";
+	}
+	.p_title {
+		left: 50%;
+		text-align: center;
+		-moz-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	.p_title h3 {
+		font-size: 15px;
+	}
+	.p_title h1 {
+		font-size: 22px;
 	}
 }

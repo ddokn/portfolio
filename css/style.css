@@ -57,7 +57,7 @@ ul > li {
 ul {
 	 padding-left: 0;
 }
-aside {
+.side_menu {
 	min-width: 15%;
 	height: 100%;
 	width: 15%;
@@ -175,6 +175,17 @@ footer {
 }
 .nav_title a:hover {
 	color: #9ea4aa;
+}
+.active h2.nav_title:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 3px;
+	height: 100%;
+	bottom: 0;
+	background: #f33759;
+	transition: all .3s;
 }
 .nav_button {
 	position: absolute;
@@ -459,6 +470,18 @@ footer {
 	margin: -6px 0 0 -6px;
 	border-radius: 100%;
 }
+.fixed_btn {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	z-index: 2;
+}
+.fixed_btn a {
+	display: block;
+	background: #fff;
+	border-radius: 100%;
+	padding: 5px;
+}
 @media screen and (max-width: 991px) {
 	.p_bg {
 		height: calc(100vh - 45vh);
@@ -584,7 +607,7 @@ footer {
 	.side_menu.on ~ main {
 		padding-left: 0;
 	}
-	aside {
+	.side_menu {
 		left: -250px !important;
 		background: #fff;
 		min-width: 250px;

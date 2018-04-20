@@ -1,9 +1,10 @@
 $(function(){
 
+	//side menu
 	var nav = $("#side-nav ul li");
 	var contents = $("#contents ._preview");
 	var sideBar = $("#side-nav");
-	$(".nav_button").click(function(){ //side bar
+	$(".nav_button").click(function(){
 		sideBar.toggleClass("on");
 
 		if(sideBar.hasClass("on")){
@@ -54,6 +55,7 @@ $(function(){
 		}
 	});
 
+	// full page plug-in
 	$(document).ready(function() {
 		$('#fullpage').fullpage({
 			navigation: true,
@@ -62,9 +64,18 @@ $(function(){
 		});
 	});
 
+	// page load
 	$(window).load(function() {
 		$(".se-pre-con").fadeOut();
 		$('#skills').addClass('show');
+	});
+
+	// footer modal
+	$("._btn").click(function(){
+		$("#modal").removeAttr("class").addClass("one");
+	});
+	$("._close").click(function(){
+		$("#modal").addClass("out");
 	});
 
 });

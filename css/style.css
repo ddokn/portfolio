@@ -637,7 +637,8 @@ footer {
 		height: calc(100vh - 60vh);
 	}
 	#skills .p_bg {
-		height: calc(100vh);
+		height: auto;
+		padding: 250px 0;
 	}
 	#skills .p_summary {
 		display: block;

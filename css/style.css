@@ -190,15 +190,16 @@ footer {
 }
 .nav_button {
 	position: absolute;
-	right: -60px;
+	right: -40px;
 	top: 10px;
-	width: 50px;
-	height: 50px;
+	width: 20px;
+	height: 20px;
 	text-align: center;
 	color: #fff;
 	font-size: 14px;
 	text-decoration: none;
 	display: none;
+	padding: 5px;
 }
 .menui-egg {
 	background: #fff;
@@ -208,28 +209,28 @@ footer {
 	position: absolute;
 }
 .top-menu-egg {
-	top: 0;
-	width: 18px;
-	height: 2.5px;
+	top: 10px;
+	width: 23px;
+	height: 2px;
 	border-radius: 0;
 	background-color: #fff;
 }
 .top-animate-egg {
 	background: #fff !important;
-	top: 0 !important;
+	top: 15px !important;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
 .bottom-menu-egg {
-	top: 8px;
-	width: 18px;
-	height: 2.5px;
+	top: 20px;
+	width: 23px;
+	height: 2px;
 	border-radius: 0;
 	background-color: #fff;
 }
 .bottom-animate-egg {
 	background: #fff !important;
-	top: 0 !important;
+	top: 15px !important;
 	-webkit-transform: rotate(-225deg);
 	transform: rotate(-225deg);
 }

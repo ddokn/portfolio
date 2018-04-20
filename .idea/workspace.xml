@@ -15,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            <state relative-caret-position="41">
+              <caret line="270" column="70" lean-forward="true" selection-start-line="270" selection-start-column="70" selection-end-line="270" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -47,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
+            <state relative-caret-position="1847">
               <caret line="639" column="21" lean-forward="true" selection-start-line="639" selection-start-column="21" selection-end-line="639" selection-end-column="21" />
               <folding />
             </state>
@@ -68,10 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>contents</find>
-      <find>section</find>
-      <find>=&quot;section</find>
-      <find>#work1 .p_bg</find>
       <find>#skills .wrapper</find>
       <find>.p_bg</find>
       <find>p_bg</find>
@@ -98,6 +94,10 @@
       <find>nav_button</find>
       <find>.nav_button</find>
       <find>#skills .p_bg</find>
+      <find>xmlns</find>
+      <find>img</find>
+      <find>article role=&quot;article</find>
+      <find>footer</find>
     </findStrings>
     <replaceStrings>
       <replace>top_line text_bold</replace>
@@ -119,8 +119,8 @@
         <option value="$PROJECT_DIR$/css/style_bak.css" />
         <option value="$PROJECT_DIR$/js/jqeury.fullpage.min.js" />
         <option value="$PROJECT_DIR$/js/common.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -301,12 +301,12 @@
       <workItem from="1523942604879" duration="40619000" />
       <workItem from="1524102438114" duration="18000" />
       <workItem from="1524102473567" duration="17959000" />
-      <workItem from="1524203345162" duration="5021000" />
+      <workItem from="1524203345162" duration="5793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63617000" />
+    <option name="totallyTimeSpent" value="64389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="240" width="1920" height="1200" extended-state="0" />
@@ -464,18 +464,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        <state relative-caret-position="1847">
+          <caret line="639" column="21" lean-forward="true" selection-start-line="639" selection-start-column="21" selection-end-line="639" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="639" column="21" lean-forward="true" selection-start-line="639" selection-start-column="21" selection-end-line="639" selection-end-column="21" />
+        <state relative-caret-position="41">
+          <caret line="270" column="70" lean-forward="true" selection-start-line="270" selection-start-column="70" selection-end-line="270" selection-end-column="70" />
           <folding />
         </state>
       </provider>

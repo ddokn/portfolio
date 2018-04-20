@@ -158,6 +158,7 @@ footer {
 	margin-top: 65px;
 }
 .preview_nav > li {
+	position: relative;
 	margin-bottom: 40px;
 }
 .preview_nav > li:last-child {
@@ -501,7 +502,8 @@ footer {
 #modal .modal-bg .modal-cont {
 	position:relative;
 	background: #fff;
-	padding: 40px; max-width: 500px;
+	padding: 40px;
+	min-width: 500px;
 	display: inline-block;
 }
 #modal .modal-bg .modal-cont h2 {
@@ -509,18 +511,29 @@ footer {
 	margin:0;
 }
 #modal .modal-bg .modal-cont p {
-	font-size: 18px;
+	font-size: 13px;
+	margin-top: 20px;
 }
 #modal .modal-bg .modal-cont .close {
-	position: absolute; top: 0; right:0;
-	margin:20px; padding: 10px;
-	background: #000;
-	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	right:0;
+	padding: 10px;
 }
 #modal .modal-bg .modal-cont .close svg {
-	width: 24px;
-	fill: #fff;
+	width: 18px;
+	fill: #000;
 	vertical-align: top;
+}
+.modal-cont ul li {
+	font-family: 'helvetica', 'NanumSquare', Sans-Serif;
+	margin-top: 5px;
+}
+.modal-cont ul li:first-child {
+	margin-top: 0;
+}
+.modal-cont ul li i {
+	vertical-align: middle;
 }
 #modal.one {
 	transform: scaleY(0.01) scaleX(0);
